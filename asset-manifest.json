@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Doctor_Appointment/static/css/main.64fbe9e1.css",
-    "main.js": "/Doctor_Appointment/static/js/main.beda7815.js",
+    "main.js": "/Doctor_Appointment/static/js/main.2f667d55.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Doctor_Appointment/static/js/787.c4e7f8f9.chunk.js",
     "static/media/appoinment-img.png": "/Doctor_Appointment/static/media/appoinment-img.e619f9f8714a20ab63d8.png",
     "static/media/banner-doctor.png": "/Doctor_Appointment/static/media/banner-doctor.959987b683e5097d9e51.png",
@@ -17,11 +17,11 @@
     "static/media/medical.png": "/Doctor_Appointment/static/media/medical.737114d986a200af0252.png",
     "index.html": "/Doctor_Appointment/index.html",
     "main.64fbe9e1.css.map": "/Doctor_Appointment/static/css/main.64fbe9e1.css.map",
-    "main.beda7815.js.map": "/Doctor_Appointment/static/js/main.beda7815.js.map",
+    "main.2f667d55.js.map": "/Doctor_Appointment/static/js/main.2f667d55.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Doctor_Appointment/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64fbe9e1.css",
-    "static/js/main.beda7815.js"
+    "static/js/main.2f667d55.js"
   ]
 }

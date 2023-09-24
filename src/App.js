@@ -1,6 +1,6 @@
 import "./App.css";
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -11,7 +11,7 @@ import Specialist from "./pages/Specialists/Specialist";
 import Appointments from "./pages/Appointments/Appointments";
 import RootLayout from "./Layouts/RootLayout";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path = "/" element={<RootLayout/>}>
       <Route index element = {<Home/>}/>

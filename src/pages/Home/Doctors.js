@@ -46,29 +46,15 @@ const Doctors = () => {
     <div className='max-h-fit py-10 '>
         <h1 className='text-3xl font-bold text-center'>Book our Doctor</h1>
         {/* static doctors grid starts  */}
-        <div className='max-h-fit my-20  w-full grid lg:grid-cols-4 grid-cols-2 place-items-center'>
+        <div className='max-h-fit my-20 mx-auto py-2 w-[95%] grid lg:grid-cols-4 grid-cols-2 place-items-center gap-2'>
             {doctors.map(doctor =>(
                 <div className='flex flex-col my-10  border-2 border-gray-200 rounded-lg items-center shadow-lg'>
                     <img src = {doctor.image}/>
-                    <p>{doctor.name}</p>
-                    <p>{doctor.speciality}</p>
+                    <p className='text-xl font-semibold my-2'>{doctor.name}</p>
+                    <p className='mb-2'>{doctor.speciality}</p>
                 </div>
             ))}
         </div>
-        {/* static doctors grid ends  */}
-        {/* carousel starts*/}
-        {/* <div className='md:hidden flex flex-nowrap h-auto w-screen' >
-            {doctors.map(doctor =>(
-                    <div className='flex flex-col border-2 border-gray-200 rounded-lg items-center shadow-lg'>
-                        <img src = {doctor.image}/>
-                        <p>{doctor.name}</p>
-                        <p>{doctor.speciality}</p>
-                    </div>
-                ))}
-        </div> */}
-        {/* carousel ends  */}
-        {/* <button disabled = {!hasPrev} onClick = {prevHandler} className='h-10 w-32 bg-blue-500 mr-4 lg:hidden'>Prev</button>
-        <button disabled = {!hasNext} onClick = {nextHandler} className='h-10 w-32 bg-blue-500 mr-4 lg:hidden'>Next</button> */}
     </div>
   )
 }

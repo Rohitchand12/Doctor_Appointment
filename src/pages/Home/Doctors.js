@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import dentist from '../../assets/images/doctor-dentist.jpg'
 import neurologist from '../../assets/images/neurologist.jpg'
 import ortho from '../../assets/images/ortho.jpg'
@@ -28,20 +28,6 @@ const doctors = [
 ]
 
 const Doctors = () => {
-    const [index , setIndex] = useState(0);
-    let hasPrev = index > 0
-    let hasNext = index < doctors.length-1  
-
-    const nextHandler = ()=>{
-        if(hasNext){
-            setIndex(prev=>prev+1)
-        }
-    }
-    const prevHandler = ()=>{
-        if(hasPrev){
-            setIndex(prev=>prev-1)
-        }
-    }
   return (
     <div className='max-h-fit py-10 '>
         <h1 className='text-3xl font-bold text-center'>Book our Doctor</h1>

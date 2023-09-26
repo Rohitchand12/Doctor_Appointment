@@ -26,8 +26,7 @@ const sideNavHandler = ()=>{
         </ul>
         <NavLink to = "/login" className="ml-auto">
 
-          <button className="
-          lg:block hidden border-blue-500 border-2 rounded-lg h-10 w-auto ml-auto mr-5 px-4 hover:bg-blue-500 hover:text-white transition ease-in delay-75">
+          <button className="border-blue-500 border-2 rounded-lg h-10 w-auto ml-auto mr-5 px-4 hover:bg-blue-500 hover:text-white transition ease-in delay-75">
             Login/Register
           </button>
           

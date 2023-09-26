@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Doctor_Appointment/static/css/main.2cfae383.css",
-    "main.js": "/Doctor_Appointment/static/js/main.1271838f.js",
+    "main.css": "/Doctor_Appointment/static/css/main.23540313.css",
+    "main.js": "/Doctor_Appointment/static/js/main.c15d7102.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Doctor_Appointment/static/js/787.c4e7f8f9.chunk.js",
     "static/media/appoinment-img.png": "/Doctor_Appointment/static/media/appoinment-img.e619f9f8714a20ab63d8.png",
     "static/media/banner-doctor.png": "/Doctor_Appointment/static/media/banner-doctor.959987b683e5097d9e51.png",
+    "static/media/login-banner.png": "/Doctor_Appointment/static/media/login-banner.ece4acf86598eb59a48d.png",
     "static/media/doctor-dentist.jpg": "/Doctor_Appointment/static/media/doctor-dentist.b8dfb27372ddb9035cf7.jpg",
     "static/media/ortho.jpg": "/Doctor_Appointment/static/media/ortho.5581796082524b5d375c.jpg",
     "static/media/mri.jpg": "/Doctor_Appointment/static/media/mri.10635b9e803d3ee41726.jpg",
@@ -16,12 +17,12 @@
     "static/media/urology.jpg": "/Doctor_Appointment/static/media/urology.a243d13a9677d51c05b4.jpg",
     "static/media/medical.png": "/Doctor_Appointment/static/media/medical.737114d986a200af0252.png",
     "index.html": "/Doctor_Appointment/index.html",
-    "main.2cfae383.css.map": "/Doctor_Appointment/static/css/main.2cfae383.css.map",
-    "main.1271838f.js.map": "/Doctor_Appointment/static/js/main.1271838f.js.map",
+    "main.23540313.css.map": "/Doctor_Appointment/static/css/main.23540313.css.map",
+    "main.c15d7102.js.map": "/Doctor_Appointment/static/js/main.c15d7102.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Doctor_Appointment/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cfae383.css",
-    "static/js/main.1271838f.js"
+    "static/css/main.23540313.css",
+    "static/js/main.c15d7102.js"
   ]
 }
